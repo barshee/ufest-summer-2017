@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Document</title>
+  <style>
+    body, html { margin: 0; padding: 0; background: #FFF; }
+    .container {
+      display: flex;
+      flex-flow: row wrap;
+    }
+    .container .item {
+      flex: 1 0 50%;
+      width: 50%;
+      height: 50vh;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      color: #FFF;
+      font-weight: bold;
+      font-size: 20vw;
+      text-decoration: none;
+    }
+    .A { background: rgb(228, 0, 127); }
+    .B { background: rgb(243, 152, 0); }
+    .O { background: rgb(0, 160, 233); }
+    .AB { background: rgb(140, 198, 63); }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <a href="./A/index.html" class="item A"><span>A</span></a>
+    <a href="./B/index.html" class="item B"><span>B</span></a>
+    <a href="./O/index.html" class="item O"><span>O</span></a>
+    <a href="./AB/index.html" class="item AB"><span>AB</span></a>
+  </div>
+</body>
+</html>
