@@ -1,3 +1,12 @@
+@font-face{
+  font-family: DIN;
+  font-weight: 600;
+  src: local('DINAlternate-Bold'),
+       local('din'),
+       url(./fonts/din1451alt/din1451alt.woff2) format('woff2'),
+       url(./fonts/din1451alt/din1451alt.woff) format('woff');
+}
+
 *, *::before, *::after {
   box-sizing: border-box;
 }
@@ -29,7 +38,7 @@
 }
 
 .displayCount {
-  font-family: 'din alternate', 'din', 'Roboto';
+  font-family: DIN, 'Roboto', sans-serif;
   z-index: 1;
   width: 80vw;
   font-size: 40vw;
